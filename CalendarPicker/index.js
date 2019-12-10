@@ -249,6 +249,7 @@ export default class CalendarPicker extends Component {
       weekdays,
       months,
       previousTitle,
+      previousIcon,
       nextTitle,
       textStyle,
       todayTextStyle,
@@ -331,6 +332,7 @@ export default class CalendarPicker extends Component {
             onPressNext={this.handleOnPressNext}
             months={months}
             previousTitle={previousTitle}
+            previousIcon={previousIcon}
             nextTitle={nextTitle}
             textStyle={textStyle}
             restrictMonthNavigation={restrictMonthNavigation}
