@@ -13,16 +13,6 @@ export default function Controls({ styles, textStyles, label, onPressControl, di
       {content}
     </TouchableOpacity>
   );
-  // return (
-  //   <TouchableOpacity
-  //     onPress={() => onPressControl()}
-  //     disabled={disabled}
-  //   >
-  //     <Text style={[styles, textStyles]}>
-  //       { disabled ? null : label }
-  //     </Text>
-  //   </TouchableOpacity>
-  // );
 }
 
 Controls.propTypes = {

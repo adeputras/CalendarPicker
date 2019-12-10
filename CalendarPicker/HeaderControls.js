@@ -26,6 +26,7 @@ export default function HeaderControls(props) {
     previousTitle,
     previousIcon,
     nextTitle,
+    nextIcon,
     textStyle,
     restrictMonthNavigation,
     maxDate,
@@ -36,7 +37,6 @@ export default function HeaderControls(props) {
   // getMonth() call below will return the month number, we will use it as the
   // index for month array in english
   const previous = previousTitle ? previousTitle : 'Previous';
-  const previousCustIcon = previousIcon;
   const next = nextTitle ? nextTitle : 'Next';
   const month = MONTHS[currentMonth];
   const year = currentYear;
@@ -67,6 +67,7 @@ export default function HeaderControls(props) {
       <Controls
         disabled={disableNextMonth}
         label={next}
+        icon={nextIcon}
         onPressControl={onPressNext}
         styles={[styles.monthSelector, styles.next]}
         textStyles={textStyle}

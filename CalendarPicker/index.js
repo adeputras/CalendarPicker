@@ -251,6 +251,7 @@ export default class CalendarPicker extends Component {
       previousTitle,
       previousIcon,
       nextTitle,
+      nextIcon,
       textStyle,
       todayTextStyle,
       selectedDayStyle,
@@ -334,6 +335,7 @@ export default class CalendarPicker extends Component {
             previousTitle={previousTitle}
             previousIcon={previousIcon}
             nextTitle={nextTitle}
+            nextIcon={nextIcon}
             textStyle={textStyle}
             restrictMonthNavigation={restrictMonthNavigation}
             maxDate={maxDate}
