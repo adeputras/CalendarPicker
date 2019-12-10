@@ -8,8 +8,8 @@
 export const Utils = {
   START_DATE: 'START_DATE',
   END_DATE: 'END_DATE',
-  WEEKDAYS: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-  WEEKDAYS_MON: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+  WEEKDAYS: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+  WEEKDAYS_MON: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
   MONTHS: [
     'January', 'February', 'March', 'April', 'May', 'June', 'July',
     'August', 'September', 'October', 'November', 'December'

@@ -25,7 +25,6 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     calendar: {
       height: 320*scaler,
       marginTop: 10*scaler,
-      backgroundColor: '#ffffff',
     },
 
     dayButton: {
@@ -37,7 +36,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     },
 
     dayLabel: {
-      fontSize: 14*scaler,
+      fontSize: 16*scaler,
       color: '#000',
       alignSelf: 'center'
     },
