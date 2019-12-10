@@ -4,9 +4,9 @@
  * Copyright 2016 Yahoo Inc.
  * Licensed under the terms of the MIT license. See LICENSE file in the project root for terms.
  */
-const DEFAULT_SELECTED_BACKGROUND_COLOR = '#5ce600';
-const DEFAULT_SELECTED_TEXT_COLOR = '#000000';
-const DEFAULT_TODAY_BACKGROUND_COLOR = '#CCCCCC';
+const DEFAULT_SELECTED_BACKGROUND_COLOR = '#E83249';
+const DEFAULT_SELECTED_TEXT_COLOR = '#ffffff';
+const DEFAULT_TODAY_BACKGROUND_COLOR = '#F7941D';
 
 function getBorderRadiusByShape(scaler, dayShape) {
   if (dayShape === 'square') {
@@ -24,7 +24,8 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
   return {
     calendar: {
       height: 320*scaler,
-      marginTop: 10*scaler
+      marginTop: 10*scaler,
+      backgroundColor: '#ffffff',
     },
 
     dayButton: {
@@ -47,14 +48,14 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     dayLabelsWrapper: {
       flexDirection: 'row',
-      borderBottomWidth: 1,
-      borderTopWidth: 1,
+      // borderBottomWidth: 1,
+      // borderTopWidth: 1,
       paddingTop: 10*scaler,
       paddingBottom: 10*scaler,
       alignSelf: 'center',
       justifyContent: 'center',
       backgroundColor: 'rgba(0,0,0,0.0)',
-      borderColor: 'rgba(0,0,0,0.2)'
+      // borderColor: 'rgba(0,0,0,0.2)'
     },
 
     daysWrapper: {
