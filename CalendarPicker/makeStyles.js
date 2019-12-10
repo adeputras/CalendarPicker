@@ -64,7 +64,7 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
 
     dayLabels: {
       width: 50*scaler,
-      fontSize: 12*scaler,
+      fontSize: 14*scaler,
       color: '#000',
       textAlign: 'center'
     },
